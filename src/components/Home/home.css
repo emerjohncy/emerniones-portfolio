@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --clr1: #F4F3F1;
+    --clr2: #00AAF3;
+    --clr3: #071B2A;
+    --font-family:"Montserrat", sans-serif;
+    --padding: 75px;
+}
+
+.home{
+    height: 100vh;
+    width: 100vw;
+    padding-top: 15vh;
+    color: var(--clr1);
+    font-family: var(--font-family);
+}
+
+.div-home{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.div-home-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 75px;
+    justify-content: center;
+    
+}
+
+.div-home-right{
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    width: 50%;
+    
+}
+
+.introduction{
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
+#greetings{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#greetings-role{
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+}
+
+#name{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#role{
+    color: var(--clr2);
+    padding-left: 8px;
+}
+
+#brief-intro{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.portrait{
+    width: 100%;
+    height: auto;
+}
+
+.div-social{
+    display: flex;
+    flex-direction: row;
+}
+
+.div-icon{
+    padding-right: 20px;
+}
+
+.icon{
+    border: 3px solid var(--clr2);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.button{
+    font-family: var(--font-family);
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 20px;
+    border: 3px solid var(--clr2);
+}
+
+#download{
+    background-color: var(--clr2);
+    color: var(--clr3);
+    width: 190px;
+}
+
+#view{
+    background-color: var(--clr3);
+    color: var(--clr2);
+    width: 170px;
+}

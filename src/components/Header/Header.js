@@ -5,7 +5,9 @@ import logo from '../../assets/logo.png'
 export default function Header() {
   return (
     <div className='header'>
-      <img className='logo' src={logo}/>
+      <div className='div-logo'>
+        <img className='logo' src={logo}/>
+      </div>
       <div className='menu'>
         <div className='menu-items'>
           Home
