@@ -1,0 +1,37 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --clr1: #F4F3F1;
+    --clr2: #00AAF3;
+    --clr3: #071B2A;
+}
+
+.header{
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 15vh;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-items{
+    color: var(--clr1);
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    padding-left: 20px;
+    padding-right: 20px;
+}
