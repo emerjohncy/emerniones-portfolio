@@ -14,38 +14,80 @@
     --font-family:"Montserrat", sans-serif;
 }
 
-.header{
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    height: 15vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: var(--clr3);
-    flex-wrap: nowrap;
+@media all and (min-width: 1366px) and (min-height: 768px){
+    .header{
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        height: 15vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: var(--clr3);
+        flex-wrap: nowrap;
+    }
+
+    .div-logo{
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        height: 70px;
+        justify-items: center;
+        padding-left: var(--padding);
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-right: var(--padding);
+    }
+
+    .menu-items{
+        color: var(--clr1);
+        font-family: "Montserrat", sans-serif;
+        font-size: larger;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
-.div-logo{
-    display: flex;
-    align-items: center;
-}
-.logo{
-    height: 70px;
-    justify-items: center;
-    padding-left: var(--padding);
-}
-
-.menu{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-right: var(--padding);
-}
-
-.menu-items{
-    color: var(--clr1);
-    font-family: "Montserrat", sans-serif;
-    font-size: larger;
-    padding-left: 40px;
+@media all and (min-width: 1920px) and (min-height: 1080px){
+    .header{
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        height: 15vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: var(--clr3);
+        flex-wrap: nowrap;
+    }
+    
+    .div-logo{
+        display: flex;
+        align-items: center;
+    }
+    .logo{
+        height: 100px;
+        justify-items: center;
+        padding-left: var(--padding);
+    }
+    
+    .menu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-right: var(--padding);
+    }
+    
+    .menu-items{
+        color: var(--clr1);
+        font-family: "Montserrat", sans-serif;
+        font-size: xx-large;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
