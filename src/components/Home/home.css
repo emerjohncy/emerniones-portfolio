@@ -14,14 +14,260 @@
     --padding: 75px;
 }
 
-/* Screen Size 360x640 */
-/* Screen Size 360x720 */
-/* Screen Size 375x667 */
+/* Screen Size 1920x1080 */
+@media all and (min-width: 1920px){
+    .home{
+        height: 100vh;
+        width: 100vw;
+        padding-top: 15vh;
+        color: var(--clr1);
+        font-family: var(--font-family);
+    }
+    
+    .div-home{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+    
+    .div-home-left{
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        margin-left: 75px;
+        margin-right: 75px;
+        margin-bottom: 75px;
+        justify-content: center;
+    }
+    
+    .div-home-right{
+        width: 45%;
+    }
+    
+    .introduction{
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+    
+    #greetings{
+        font-size: 60px;
+        font-weight: 600;
+    }
+    
+    #greetings-role{
+        font-size: 60px;
+        font-weight: 600;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #name{
+        font-size: 80px;
+        font-weight: 900;
+    }
+    
+    #role{
+        color: var(--clr2);
+        padding-left: 16px;
+    }
+    
+    #brief-intro{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 25px;
+        text-align: justify;
+    }
+    
+    .portrait{
+        width: 100%;
+        height: auto;
+    }
+    
+    .div-social{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .div-icon{
+        padding-right: 20px;
+    }
+    
+    .icon-border{
+        border: 6px solid var(--clr2);
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon{
+        height: 50px;
+        width: 50px;
+    }
+    
+    .div-buttons{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+    
+    .button{
+        font-family: var(--font-family);
+        font-size: 20px;
+        padding: 25px;
+        border-radius: 10px;
+        text-align: center;
+        vertical-align: middle;
+        margin-right: 20px;
+        border: 3px solid var(--clr2);
+        text-decoration: none;
+    }
+    
+    #download{
+        background-color: var(--clr2);
+        color: var(--clr3);
+        width: 250px;
+    }
+    
+    #view{
+        background-color: var(--clr3);
+        color: var(--clr2);
+        width: 230px;
+    }
+}
+
+/* Screen Size 1366x768 */
+@media all and (min-width: 1366px) and (max-width: 1919px){
+    .home{
+        height: 100vh;
+        width: 100vw;
+        padding-top: 15vh;
+        color: var(--clr1);
+        font-family: var(--font-family);
+    }
+
+    .div-home{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+
+    .div-home-left{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        margin-left: 75px;
+        margin-right: 75px;
+        margin-bottom: 75px;
+        justify-content: center;
+    }
+
+    .div-home-right{
+        width: 50%;
+    }
+
+    .introduction{
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+
+    #greetings{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    #greetings-role{
+        font-size: 30px;
+        font-weight: 600;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #name{
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    #role{
+        color: var(--clr2);
+        padding-left: 8px;
+    }
+
+    #brief-intro{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .portrait{
+        width: 100%;
+        height: auto;
+    }
+
+    .div-social{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .div-icon{
+        padding-right: 20px;
+    }
+
+    .icon-border{
+        border: 3px solid var(--clr2);
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon{
+        height: 30px;
+        width: 30px;
+    }
+
+    .div-buttons{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+    }
+
+    .button{
+        font-family: var(--font-family);
+        font-size: 15px;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        vertical-align: middle;
+        margin-right: 20px;
+        border: 3px solid var(--clr2);
+        text-decoration: none;
+    }
+
+    #download{
+        background-color: var(--clr2);
+        color: var(--clr3);
+        width: 190px;
+    }
+
+    #view{
+        background-color: var(--clr3);
+        color: var(--clr2);
+        width: 170px;
+    }
+}
 
 /* Screen Size 768x1024 */
-@media all and (min-width: 768px){
+@media all and (min-width: 768px) and (max-width: 1365px){
     .home{
-        /* height: 100vh; */
+        height: 100%;
         width: 100vw;
         padding-top: 10vh;
         color: var(--clr1);
@@ -150,252 +396,6 @@
     }
 }
 
-/* Screen Size 1366x768 */
-@media all and (min-width: 1366px){
-    .home{
-        height: 100vh;
-        width: 100vw;
-        padding-top: 15vh;
-        color: var(--clr1);
-        font-family: var(--font-family);
-    }
-
-    .div-home{
-        display: flex;
-        flex-direction: row;
-        height: 100%;
-    }
-
-    .div-home-left{
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-        margin-left: 75px;
-        margin-right: 75px;
-        margin-bottom: 75px;
-        justify-content: center;
-    }
-
-    .div-home-right{
-        width: 50%;
-    }
-
-    .introduction{
-        padding-bottom: 3px;
-        padding-top: 3px;
-    }
-
-    #greetings{
-        font-size: 30px;
-        font-weight: 600;
-    }
-
-    #greetings-role{
-        font-size: 30px;
-        font-weight: 600;
-        display: flex;
-        flex-direction: row;
-    }
-
-    #name{
-        font-size: 50px;
-        font-weight: 900;
-    }
-
-    #role{
-        color: var(--clr2);
-        padding-left: 8px;
-    }
-
-    #brief-intro{
-        padding-top: 30px;
-        padding-bottom: 30px;
-        font-size: 16px;
-        text-align: justify;
-    }
-
-    .portrait{
-        width: 100%;
-        height: auto;
-    }
-
-    .div-social{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .div-icon{
-        padding-right: 20px;
-    }
-
-    .icon-border{
-        border: 3px solid var(--clr2);
-        border-radius: 50%;
-        width: 60px;
-        height: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .icon{
-        height: 30px;
-        width: 30px;
-    }
-
-    .div-buttons{
-        display: flex;
-        flex-direction: row;
-        margin-top: 30px;
-    }
-
-    .button{
-        font-family: var(--font-family);
-        font-size: 15px;
-        padding: 20px;
-        border-radius: 10px;
-        text-align: center;
-        vertical-align: middle;
-        margin-right: 20px;
-        border: 3px solid var(--clr2);
-        text-decoration: none;
-    }
-
-    #download{
-        background-color: var(--clr2);
-        color: var(--clr3);
-        width: 190px;
-    }
-
-    #view{
-        background-color: var(--clr3);
-        color: var(--clr2);
-        width: 170px;
-    }
-}
-
-/* Screen Size 1920x1080 */
-@media all and (min-width: 1920px){
-    .home{
-        height: 100vh;
-        width: 100vw;
-        padding-top: 15vh;
-        color: var(--clr1);
-        font-family: var(--font-family);
-    }
-    
-    .div-home{
-        display: flex;
-        flex-direction: row;
-        height: 100%;
-    }
-    
-    .div-home-left{
-        width: 55%;
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-        margin-left: 75px;
-        margin-right: 75px;
-        margin-bottom: 75px;
-        justify-content: center;
-    }
-    
-    .div-home-right{
-        width: 45%;
-    }
-    
-    .introduction{
-        padding-bottom: 3px;
-        padding-top: 3px;
-    }
-    
-    #greetings{
-        font-size: 60px;
-        font-weight: 600;
-    }
-    
-    #greetings-role{
-        font-size: 60px;
-        font-weight: 600;
-        display: flex;
-        flex-direction: row;
-    }
-    
-    #name{
-        font-size: 80px;
-        font-weight: 900;
-    }
-    
-    #role{
-        color: var(--clr2);
-        padding-left: 16px;
-    }
-    
-    #brief-intro{
-        padding-top: 30px;
-        padding-bottom: 30px;
-        font-size: 25px;
-        text-align: justify;
-    }
-    
-    .portrait{
-        width: 100%;
-        height: auto;
-    }
-    
-    .div-social{
-        display: flex;
-        flex-direction: row;
-    }
-    
-    .div-icon{
-        padding-right: 20px;
-    }
-    
-    .icon-border{
-        border: 6px solid var(--clr2);
-        border-radius: 50%;
-        width: 100px;
-        height: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .icon{
-        height: 50px;
-        width: 50px;
-    }
-    
-    .div-buttons{
-        display: flex;
-        flex-direction: row;
-        margin-top: 30px;
-    }
-    
-    .button{
-        font-family: var(--font-family);
-        font-size: 20px;
-        padding: 25px;
-        border-radius: 10px;
-        text-align: center;
-        vertical-align: middle;
-        margin-right: 20px;
-        border: 3px solid var(--clr2);
-        text-decoration: none;
-    }
-    
-    #download{
-        background-color: var(--clr2);
-        color: var(--clr3);
-        width: 250px;
-    }
-    
-    #view{
-        background-color: var(--clr3);
-        color: var(--clr2);
-        width: 230px;
-    }
-}
+/* Screen Size 375x667 */
+/* Screen Size 360x720 */
+/* Screen Size 360x640 */
