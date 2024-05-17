@@ -397,5 +397,141 @@
 }
 
 /* Screen Size 375x667 */
+@media all and (min-width: 375px) and (max-width: 767px){
+    .home{
+        height: 100%;
+        /* width: 100vw; */
+        padding-top: 10vh;
+        color: var(--clr1);
+        font-family: var(--font-family);
+        /* overflow: auto; */
+    }
+
+    .div-home{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+
+    .div-home-left{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        /* margin-bottom: 75px; */
+        justify-content: center;
+        margin: auto;
+    }
+
+    .div-home-right{
+        width: 70%;
+        margin: auto;
+    }
+
+    .introduction{
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+
+    #greetings{
+        font-size: 20px;
+        font-weight: 600;
+        /* margin: auto; */
+    }
+
+    #greetings-role{
+        font-size: 18px;
+        font-weight: 600;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+
+    #name{
+        font-size: 50px;
+        font-weight: 900;
+        /* margin: auto; */
+        text-align: center;
+    }
+
+    #role{
+        color: var(--clr2);
+        padding-left: 8px;
+    }
+
+    #brief-intro{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .portrait{
+        width: 100%;
+        height: auto;
+    }
+
+    .div-social{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+
+    .div-icon{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .icon-border{
+        border: 1px solid var(--clr2);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon{
+        height: 20px;
+        width: 20px;
+    }
+
+    .div-buttons{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .button{
+        font-family: var(--font-family);
+        font-size: 12px;
+        padding: 10px;
+        border-radius: 8px;
+        text-align: center;
+        vertical-align: middle;
+        margin-right: 10px;
+        margin-left: 10px;
+        border: 1px solid var(--clr2);
+        text-decoration: none;
+    }
+
+    #download{
+        background-color: var(--clr2);
+        color: var(--clr3);
+        /* width: 190px; */
+    }
+
+    #view{
+        background-color: var(--clr3);
+        color: var(--clr2);
+        /* width: 170px; */
+    }
+}
+
 /* Screen Size 360x720 */
 /* Screen Size 360x640 */
