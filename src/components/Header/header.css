@@ -27,30 +27,21 @@
         background-color: var(--clr3);
         flex-wrap: nowrap;
     }
-    
+
     .div-logo{
         display: flex;
         align-items: center;
     }
-    .logo{
-        height: 100px;
-        justify-items: center;
-        padding-left: var(--padding);
-    }
-    
-    .menu{
+
+    .div-nav{
         display: flex;
         flex-direction: row;
         align-items: center;
         padding-right: var(--padding);
     }
-    
-    .menu-items{
-        color: var(--clr1);
-        font-family: "Montserrat", sans-serif;
-        font-size: xx-large;
-        padding-left: 40px;
-        padding-right: 40px;
+
+    .div-hamburger{
+        display: none;
     }
 }
 
@@ -72,25 +63,16 @@
         display: flex;
         align-items: center;
     }
-    .logo{
-        height: 70px;
-        justify-items: center;
-        padding-left: var(--padding);
-    }
 
-    .menu{
+    .div-nav{
         display: flex;
         flex-direction: row;
         align-items: center;
         padding-right: var(--padding);
     }
 
-    .menu-items{
-        color: var(--clr1);
-        font-family: "Montserrat", sans-serif;
-        font-size: larger;
-        padding-left: 20px;
-        padding-right: 20px;
+    .div-hamburger{
+        display: none;
     }
 }
 
@@ -112,30 +94,21 @@
         display: flex;
         align-items: center;
     }
-    .logo{
-        height: 70px;
-        justify-items: center;
-        padding-left: var(--padding);
-    }
 
-    .menu{
+    .div-nav{
         display: flex;
         flex-direction: row;
         align-items: center;
         padding-right: var(--padding);
     }
 
-    .menu-items{
-        color: var(--clr1);
-        font-family: "Montserrat", sans-serif;
-        font-size: larger;
-        padding-left: 10px;
-        padding-right: 10px;
+    .div-hamburger{
+        display: none;
     }
 }
 
 /* Screen Size 375x667 */
-@media all and (min-width: 375px) and (max-width: 767px){
+@media all and (max-width: 767px){
     .header{
         position: fixed;
         top: 0;
@@ -153,26 +126,19 @@
         display: flex;
         align-items: center;
     }
-    .logo{
-        height: 50px;
-        justify-items: center;
-        padding-left: 30px;
-    }
 
-    .menu{
+    .div-nav{
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding-right: var(--padding);
-        display: none;
+        /* padding-right: var(--padding); */
     }
 
-    .menu-items{
-        color: var(--clr1);
-        font-family: "Montserrat", sans-serif;
-        font-size: larger;
-        padding-left: 10px;
-        padding-right: 10px;
+    .div-hamburger{
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 }
 
