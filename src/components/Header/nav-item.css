@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --clr1: #F4F3F1;
+    --clr2: #00AAF3;
+    --clr3: #071B2A;
+    --padding: 75px;
+    --font-family:"Montserrat", sans-serif;
+}
+
+/* Screen Size 1920x1080 */
+@media all and (min-width: 1920px){
+    .menu-items{
+        color: var(--clr1);
+        font-family: "Montserrat", sans-serif;
+        font-size: xx-large;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+/* Screen Size 1366x768 */
+@media all and (min-width: 1366px) and (max-width: 1919px){
+    .menu-items{
+        color: var(--clr1);
+        font-family: "Montserrat", sans-serif;
+        font-size: larger;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Screen Size 768x1024 */
+@media all and (min-width: 768px) and (max-width: 1365px){
+    .menu-items{
+        color: var(--clr1);
+        font-family: "Montserrat", sans-serif;
+        font-size: larger;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* Screen Size 375x667 */
+@media all and (max-width: 767px){
+    .menu-items{
+        display: none;
+    }
+
+    .menu-items-active{
+        color: var(--clr1);
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        background-color: var(--clr3);
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+/* Screen Size 360x720 */
+/* Screen Size 360x640 */
