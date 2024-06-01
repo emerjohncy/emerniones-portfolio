@@ -17,7 +17,7 @@
 /* Screen Size 1920x1080 */
 @media all and (min-width: 1920px){
     .logo{
-        height: 100px;
+        height: 80px;
         justify-items: center;
         padding-left: var(--padding);
     }
@@ -26,7 +26,7 @@
 /* Screen Size 1366x768 */
 @media all and (min-width: 1366px) and (max-width: 1919px){
     .logo{
-        height: 70px;
+        height: 60px;
         justify-items: center;
         padding-left: var(--padding);
     }
@@ -35,7 +35,7 @@
 /* Screen Size 768x1024 */
 @media all and (min-width: 768px) and (max-width: 1365px){
     .logo{
-        height: 70px;
+        height: 60px;
         justify-items: center;
         padding-left: var(--padding);
     }
@@ -44,7 +44,7 @@
 /* Screen Size 375x667 */
 @media all and (max-width: 767px){
     .logo{
-        height: 50px;
+        height: 40px;
         justify-items: center;
         padding-left: 30px;
     }

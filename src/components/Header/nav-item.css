@@ -16,39 +16,62 @@
 
 /* Screen Size 1920x1080 */
 @media all and (min-width: 1920px){
+    .div-menu-item{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
     .menu-items{
         color: var(--clr1);
         font-family: "Montserrat", sans-serif;
         font-size: xx-large;
-        padding-left: 40px;
-        padding-right: 40px;
+        text-decoration: none;
     }
 }
 
 /* Screen Size 1366x768 */
 @media all and (min-width: 1366px) and (max-width: 1919px){
+    .div-menu-item{
+        padding-left: 20px;
+        padding-right: 20px;
+        text-decoration: none;
+    }
+    
     .menu-items{
         color: var(--clr1);
         font-family: "Montserrat", sans-serif;
         font-size: larger;
-        padding-left: 20px;
-        padding-right: 20px;
+        text-decoration: none;
     }
 }
 
 /* Screen Size 768x1024 */
 @media all and (min-width: 768px) and (max-width: 1365px){
+    .div-menu-item{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+    }
+
     .menu-items{
         color: var(--clr1);
         font-family: "Montserrat", sans-serif;
         font-size: larger;
-        padding-left: 10px;
-        padding-right: 10px;
+        text-decoration: none;
     }
 }
 
 /* Screen Size 375x667 */
 @media all and (max-width: 767px){
+    .div-menu-item{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        background-color: var(--clr3);
+        text-decoration: none;
+       
+    }
+
     .menu-items{
         display: none;
     }
@@ -58,6 +81,7 @@
         font-family: "Montserrat", sans-serif;
         font-size: 15px;
         background-color: var(--clr3);
+        text-decoration: none;
         padding-left: 30px;
         padding-top: 10px;
         padding-bottom: 10px;
