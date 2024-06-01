@@ -11,7 +11,7 @@ export default function Header({isClicked, setIsClicked}) {
         <Logo />
       </div>
       <div className='div-nav'>
-        <NavItem />
+        <NavItem setIsClicked={setIsClicked} />
       </div>
       <div className='div-hamburger'>
         <Hamburger isClicked={isClicked} setIsClicked={setIsClicked} />

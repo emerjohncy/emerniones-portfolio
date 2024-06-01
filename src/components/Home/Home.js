@@ -18,7 +18,7 @@ export default function Home () {
   }, []);
   
   return (
-    <div className='home'>
+    <div className='home' id='home'>
       <div className='div-home'>
         <div className='div-home-left'>
           <div className='introduction' id='greetings'>

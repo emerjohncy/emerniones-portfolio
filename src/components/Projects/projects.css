@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --clr1: #F4F3F1;
+    --clr2: #00AAF3;
+    --clr3: #071B2A;
+    --font-family:"Montserrat", sans-serif;
+    --padding: 75px;
+}
+
+/* Screen Size 1920x1080 */
+@media all and (min-width: 1920px){
+    .projects{
+        height: 100vh;
+        width: 100vw;
+        padding-top: 15vh;
+        color: var(--clr1);
+        font-family: var(--font-family);
+    }
+
+    .div-projects{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        font-size: 50px;
+    }
+}
+
+/* Screen Size 1366x768 */
+@media all and (min-width: 1366px) and (max-width: 1919px){
+    .projects{
+        height: 100vh;
+        width: 100vw;
+        padding-top: 15vh;
+        color: var(--clr1);
+        font-family: var(--font-family);
+    }
+
+    .div-projects{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        font-size: 50px;
+    }
+}
+
+/* Screen Size 768x1024 */
+@media all and (min-width: 768px) and (max-width: 1365px){
+    .projects{
+        height: 100vh;
+        width: 100vw;
+        padding-top: 15vh;
+        color: var(--clr1);
+        font-family: var(--font-family);
+    }
+
+    .div-projects{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        font-size: 50px;
+    }   
+}
+
+/* Screen Size 375x667 */
+@media all and (max-width: 767px){
+    .projects{
+        height: 100vh;
+        width: 100vw;
+        padding-top: 15vh;
+        color: var(--clr1);
+        font-family: var(--font-family);
+    }
+
+    .div-projects{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        font-size: 50px;
+    }   
+}

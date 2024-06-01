@@ -26,6 +26,7 @@
         justify-content: space-between;
         background-color: var(--clr3);
         flex-wrap: nowrap;
+        z-index: 1;
     }
 
     .div-logo{
@@ -57,6 +58,7 @@
         justify-content: space-between;
         background-color: var(--clr3);
         flex-wrap: nowrap;
+        z-index: 1;
     }
 
     .div-logo{
@@ -88,6 +90,7 @@
         justify-content: space-between;
         background-color: var(--clr3);
         flex-wrap: nowrap;
+        z-index: 1;
     }
 
     .div-logo{
