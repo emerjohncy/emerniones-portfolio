@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import About from './components/About/About'
 import { useState } from 'react'
+import Projects from './components/Projects/Projects';
 
 function App() {
   const [isClicked, setIsClicked] = useState(false);
@@ -12,6 +13,7 @@ function App() {
       <Header isClicked={isClicked} setIsClicked={setIsClicked} />
       <Home />
       <About />
+      <Projects />
     </div>
   );
 }
