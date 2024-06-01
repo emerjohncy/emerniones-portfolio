@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import About from './components/About/About'
 import { useState } from 'react'
 import Projects from './components/Projects/Projects';
+import Experience from './components/Experience/Experience';
 
 function App() {
   const [isClicked, setIsClicked] = useState(false);
@@ -14,6 +15,7 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <Experience />
     </div>
   );
 }
