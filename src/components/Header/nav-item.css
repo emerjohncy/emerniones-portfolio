@@ -27,6 +27,10 @@
         font-size: xx-large;
         text-decoration: none;
     }
+
+    .menu-items:hover{
+        color: var(--clr2);
+    }
 }
 
 /* Screen Size 1366x768 */
@@ -43,6 +47,10 @@
         font-size: larger;
         text-decoration: none;
     }
+
+    .menu-items:hover{
+        color: var(--clr2);
+    }
 }
 
 /* Screen Size 768x1024 */
@@ -58,6 +66,10 @@
         font-family: "Montserrat", sans-serif;
         font-size: larger;
         text-decoration: none;
+    }
+
+    .menu-items:hover{
+        color: var(--clr2);
     }
 }
 
@@ -84,6 +96,10 @@
         padding-left: 30px;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+    .menu-items-active:hover{
+        background-color: var(--clr2);
     }
 }
 
