@@ -134,11 +134,23 @@
         color: var(--clr3);
         width: 250px;
     }
+
+    #download:hover{
+        background-color: var(--clr3);
+        color: var(--clr2);
+        box-shadow: rgba(0, 170, 243, 0.25) 0px 14px 28px, rgba(0, 170, 243, 0.22) 0px 10px 10px;
+    }
     
     #view{
         background-color: var(--clr3);
         color: var(--clr2);
         width: 230px;
+    }
+
+    #view:hover{
+        background-color: var(--clr2);
+        color: var(--clr3);
+        box-shadow: rgba(0, 170, 243, 0.25) 0px 14px 28px, rgba(0, 170, 243, 0.22) 0px 10px 10px;
     }
 }
 
@@ -263,10 +275,22 @@
         width: 190px;
     }
 
+    #download:hover{
+        background-color: var(--clr3);
+        color: var(--clr2);
+        box-shadow: rgba(0, 170, 243, 0.25) 0px 14px 28px, rgba(0, 170, 243, 0.22) 0px 10px 10px;
+    }
+
     #view{
         background-color: var(--clr3);
         color: var(--clr2);
         width: 170px;
+    }
+
+    #view:hover{
+        background-color: var(--clr2);
+        color: var(--clr3);
+        box-shadow: rgba(0, 170, 243, 0.25) 0px 14px 28px, rgba(0, 170, 243, 0.22) 0px 10px 10px;
     }
 }
 
@@ -398,10 +422,22 @@
         width: 190px;
     }
 
+    #download:hover{
+        background-color: var(--clr3);
+        color: var(--clr2);
+        box-shadow: rgba(0, 170, 243, 0.25) 0px 14px 28px, rgba(0, 170, 243, 0.22) 0px 10px 10px;
+    }
+
     #view{
         background-color: var(--clr3);
         color: var(--clr2);
         width: 170px;
+    }
+
+    #view:hover{
+        background-color: var(--clr2);
+        color: var(--clr3);
+        box-shadow: rgba(0, 170, 243, 0.25) 0px 14px 28px, rgba(0, 170, 243, 0.22) 0px 10px 10px;
     }
 }
 
@@ -538,10 +574,22 @@
         /* width: 190px; */
     }
 
+    #download:hover{
+        background-color: var(--clr3);
+        color: var(--clr2);
+        box-shadow: rgba(0, 170, 243, 0.25) 0px 14px 28px, rgba(0, 170, 243, 0.22) 0px 10px 10px;
+    }
+
     #view{
         background-color: var(--clr3);
         color: var(--clr2);
         /* width: 170px; */
+    }
+
+    #view:hover{
+        background-color: var(--clr2);
+        color: var(--clr3);
+        box-shadow: rgba(0, 170, 243, 0.25) 0px 14px 28px, rgba(0, 170, 243, 0.22) 0px 10px 10px;
     }
 }
 

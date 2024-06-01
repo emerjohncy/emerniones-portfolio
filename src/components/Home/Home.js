@@ -73,9 +73,9 @@ export default function Home () {
             <a className='button' id='download' href={portrait} download>
               Download Resumé
             </a>
-            <div className='button' id='view'>
+            <a className='button' id='view' href='#projects'>
               View Projects
-            </div>
+            </a>
           </div>
         </div>
         <div className='div-home-right'>
