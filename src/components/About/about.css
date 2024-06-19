@@ -28,7 +28,30 @@
         display: flex;
         flex-direction: row;
         height: 100%;
-        font-size: 100px;
+        margin-left: 75px;
+        margin-right: 75px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-about{
+        width: 500px;
+    }
+
+    .about-title{
+        font-size: 60px;
+        font-weight: 900;
+        margin-left: 75px;
+        padding-bottom: 25px;
+    }
+
+    .blue{
+        color: var(--clr2);
+    }
+
+    .about-body{
+        font-size: 20px;
+        margin-left: 75px;
     }
 }
 
@@ -46,15 +69,37 @@
         display: flex;
         flex-direction: row;
         height: 100%;
-        font-size: 100px;
+        margin-left: 75px;
+        margin-right: 75px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-about{
+        width: 375px;
+    }
+
+    .about-title{
+        font-size: 50px;
+        font-weight: 900;
+        margin-left: 50px;
+        padding-bottom: 25px;
+    }
+
+    .blue{
+        color: var(--clr2);
+    }
+
+    .about-body{
+        font-size: 14px;
+        margin-left: 50px;
     }
 }
 
 /* Screen Size 768x1024 */
 @media all and (min-width: 768px) and (max-width: 1365px){
     .about{
-        height: 100vh;
-        width: 100vw;
+        width: 100%;
         padding-top: 15vh;
         color: var(--clr1);
         font-family: var(--font-family);
@@ -62,16 +107,37 @@
 
     .div-about{
         display: flex;
-        flex-direction: row;
-        height: 100%;
-        font-size: 100px;
-    }   
+        flex-direction: column;
+        margin-left: 75px;
+        margin-right: 75px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-about{
+        width: 400px;
+    }
+
+    .about-title{
+        font-size: 50px;
+        font-weight: 900;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .blue{
+        color: var(--clr2);
+    }
+
+    .about-body{
+        font-size: 14px;
+    }
 }
 
 /* Screen Size 375x667 */
 @media all and (max-width: 767px){
     .about{
-        height: 100vh;
         width: 100vw;
         padding-top: 15vh;
         color: var(--clr1);
@@ -80,8 +146,31 @@
 
     .div-about{
         display: flex;
-        flex-direction: row;
-        height: 100%;
-        font-size: 100px;
-    }   
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-about{
+        width: 250px;
+    }
+
+    .about-title{
+        font-size: 30px;
+        font-weight: 900;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .blue{
+        color: var(--clr2);
+    }
+
+    .about-body{
+        font-size: 12px;
+        text-align: center;
+    }
 }
