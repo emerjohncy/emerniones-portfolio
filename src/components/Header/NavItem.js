@@ -6,7 +6,7 @@ export default function NavItem({isClicked, setIsClicked}) {
         "HOME",
         "ABOUT",
         "PROJECTS",
-        "EXPERIENCE",
+        "JOURNEY",
         "CONTACT"
     ]
 
