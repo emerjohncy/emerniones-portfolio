@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --clr1: #F4F3F1;
+    --clr2: #00AAF3;
+    --clr3: #071B2A;
+    --font-family:"Montserrat", sans-serif;
+    --padding: 75px;
+}
+
+/* Screen Size 1920x1080 */
+@media all and (min-width: 1920px){
+    .journey{
+        height: 100vh;
+        width: 100vw;
+        padding-top: 15vh;
+        color: var(--clr1);
+        font-family: var(--font-family);
+    }
+
+    .div-journey{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        font-size: 50px;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+
+    .div-journey-title{
+        text-align: center;
+        font-size: 60px;
+        font-weight: 900;
+        padding-bottom: 25px;
+    }
+
+    .div-journey-body{
+        display: flex;
+        flex: row;
+    }
+
+    .div-journey-body-left{
+        padding-right: 25px;
+        width: 50%;
+    }
+
+    .div-journey-body-right{
+        padding-left: 25px;
+        width: 50%;
+    }
+
+    .div-journey-body-title{
+        font-size: 40px;
+        font-weight: 600;
+        padding-bottom: 8px;
+    }
+
+    .div-education-item{
+        border: 3px solid var(--clr2);
+        border-radius: 8px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .journey-date{
+        font-size: 25px;
+        color: var(--clr2);
+    }
+
+    .div-education-item-body{
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 27px;
+    }
+
+    .div-education-item-body-info{
+        font-size: 20px;
+        margin-left: 27px;
+        margin-right: 27px;
+        list-style-type: '- ';
+    }
+}
+
+/* Screen Size 1366x768 */
+@media all and (min-width: 1366px) and (max-width: 1919px){
+    .journey{
+        height: 100vh;
+        width: 100vw;
+        padding-top: 15vh;
+        color: var(--clr1);
+        font-family: var(--font-family);
+    }
+
+    .div-journey{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        font-size: 50px;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+
+    .div-journey-title{
+        text-align: center;
+        font-size: 50px;
+        font-weight: 900;
+        padding-bottom: 20px;
+    }
+
+    .div-journey-body{
+        display: flex;
+        flex: row;
+    }
+
+    .div-journey-body-left{
+        padding-right: 20px;
+        width: 50%;
+    }
+
+    .div-journey-body-right{
+        padding-left: 20px;
+        width: 50%;
+    }
+
+    .div-journey-body-title{
+        font-size: 25px;
+        font-weight: 600;
+        padding-bottom: 8px;
+    }
+
+    .div-education-item{
+        border: 3px solid var(--clr2);
+        border-radius: 8px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .journey-date{
+        font-size: 20px;
+        color: var(--clr2);
+    }
+
+    .div-education-item-body{
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 27px;
+    }
+
+    .div-education-item-body-info{
+        font-size: 12px;
+        margin-left: 27px;
+        margin-right: 27px;
+        list-style-type: '- ';
+    }
+}
+
+/* Screen Size 768x1024 */
+@media all and (min-width: 768px) and (max-width: 1365px){
+    .journey{
+        width: 100vw;
+        padding-top: 10vh;
+        color: var(--clr1);
+        font-family: var(--font-family);
+    }
+
+    .div-journey{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        font-size: 50px;
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+
+    .div-journey-title{
+        text-align: center;
+        font-size: 50px;
+        font-weight: 900;
+        padding-bottom: 20px;
+    }
+
+    .div-journey-body{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .div-journey-body-left{
+        /* padding-right: 20px; */
+    }
+
+    .div-journey-body-right{
+        /* padding-left: 20px; */
+        padding-bottom: 12px;
+    }
+
+    .div-journey-body-title{
+        font-size: 25px;
+        font-weight: 600;
+        padding-bottom: 8px;
+    }
+
+    .div-education-item{
+        border: 3px solid var(--clr2);
+        border-radius: 8px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .journey-date{
+        font-size: 20px;
+        color: var(--clr2);
+    }
+
+    .div-education-item-body{
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 27px;
+    }
+
+    .div-education-item-body-info{
+        font-size: 12px;
+        margin-left: 27px;
+        margin-right: 27px;
+        list-style-type: '- ';
+    }
+}
+
+/* Screen Size 375x667 */
+@media all and (max-width: 767px){
+    .journey{
+        width: 100vw;
+        padding-top: 10vh;
+        color: var(--clr1);
+        font-family: var(--font-family);
+    }
+
+    .div-journey{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        font-size: 50px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .div-journey-title{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+        padding-bottom: 20px;
+    }
+
+    .div-journey-body{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .div-journey-body-left{
+        /* padding-right: 20px; */
+    }
+
+    .div-journey-body-right{
+        /* padding-left: 20px; */
+        padding-bottom: 12px;
+    }
+
+    .div-journey-body-title{
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 8px;
+    }
+
+    .div-education-item{
+        border: 3px solid var(--clr2);
+        border-radius: 8px;
+        padding: 10px;
+        margin-bottom: 12px;
+    }
+
+    .journey-date{
+        font-size: 15px;
+        color: var(--clr2);
+    }
+
+    .div-education-item-body{
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: 21px;
+    }
+
+    .div-education-item-body-info{
+        font-size: 10px;
+        margin-left: 27px;
+        margin-right: 21px;
+        list-style-type: '- ';
+    }
+}
