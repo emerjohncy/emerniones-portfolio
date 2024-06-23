@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react'
 import './contact.css'
 import emailjs from '@emailjs/browser';
+import 'react-toastify/dist/ReactToastify.css';
+import { toast, Bounce } from 'react-toastify';
 
 export default function Contact() {
     const form = useRef();
@@ -29,10 +31,32 @@ export default function Contact() {
           })
           .then(
             () => {
-              console.log('SUCCESS!');
+                toast.success('Message sent!', {
+                    position: "top-right",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: false,
+                    progress: undefined,
+                    theme: "colored",
+                    transition: Bounce,
+                });
+                console.log('SUCCESS!');
             },
             (error) => {
-              console.log('FAILED...', error.text);
+                toast.error('Message failed to send', {
+                    position: "top-right",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "colored",
+                    transition: Bounce,
+                });
+                console.log('FAILED...', error.text);
             },
         );
 

@@ -51,6 +51,7 @@
         padding: 20px;
         margin-bottom: 10px;
         color: var(--clr1);
+        background-color: var(--clr3);
     }
 
     .input-message{
@@ -110,6 +111,7 @@
         padding: 18px;
         margin-bottom: 10px;
         color: var(--clr1);
+        background-color: var(--clr3);
     }
 
     .input-message{
@@ -169,6 +171,7 @@
         padding: 20px;
         margin-bottom: 10px;
         color: var(--clr1);
+        background-color: var(--clr3);
     }
 
     .input-message{
@@ -230,6 +233,7 @@
         padding: 8px;
         margin-bottom: 5px;
         color: var(--clr1);
+        background-color: var(--clr3);
     }
 
     .input-message{
