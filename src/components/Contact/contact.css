@@ -26,9 +26,51 @@
 
     .div-contact{
         display: flex;
-        flex-direction: row;
-        height: 100%;
-        font-size: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-contact-title{
+        font-size: 60px;
+        font-weight: 900;
+        padding-bottom: 25px;
+    }
+
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+    }
+
+    .input-name,
+    .input-email,
+    .input-message{
+        border: 3px solid var(--clr2);
+        border-radius: 10px;
+        font-size: 24px;
+        padding: 20px;
+        margin-bottom: 10px;
+        color: var(--clr1);
+        background-color: var(--clr3);
+    }
+
+    .input-message{
+        height: 400px;
+    }
+
+    .button-send{
+        font-family: var(--font-family);
+        font-size: 24px;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        vertical-align: middle;
+        border: 3px solid var(--clr2);
+        cursor: pointer;
+        width: 250px;
+        margin: auto;
+        color: var(--clr3);
+        background-color: var(--clr2);
     }
 }
 
@@ -44,9 +86,51 @@
 
     .div-contact{
         display: flex;
-        flex-direction: row;
-        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-contact-title{
         font-size: 50px;
+        font-weight: 900;
+        padding-bottom: 25px;
+    }
+
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+    }
+
+    .input-name,
+    .input-email,
+    .input-message{
+        border: 3px solid var(--clr2);
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 18px;
+        margin-bottom: 10px;
+        color: var(--clr1);
+        background-color: var(--clr3);
+    }
+
+    .input-message{
+        height: 250px;
+    }
+
+    .button-send{
+        font-family: var(--font-family);
+        font-size: 20px;
+        padding: 18px;
+        border-radius: 10px;
+        text-align: center;
+        vertical-align: middle;
+        border: 3px solid var(--clr2);
+        cursor: pointer;
+        width: 200px;
+        margin: auto;
+        color: var(--clr3);
+        background-color: var(--clr2);
     }
 }
 
@@ -55,17 +139,59 @@
     .contact{
         height: 100vh;
         width: 100vw;
-        padding-top: 15vh;
+        padding-top: 12vh;
         color: var(--clr1);
         font-family: var(--font-family);
     }
 
     .div-contact{
         display: flex;
-        flex-direction: row;
-        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-contact-title{
         font-size: 50px;
-    }   
+        font-weight: 900;
+        padding-bottom: 35px;
+    }
+
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+
+    .input-name,
+    .input-email,
+    .input-message{
+        border: 3px solid var(--clr2);
+        border-radius: 10px;
+        font-size: 24px;
+        padding: 20px;
+        margin-bottom: 10px;
+        color: var(--clr1);
+        background-color: var(--clr3);
+    }
+
+    .input-message{
+        height: 450px;
+    }
+
+    .button-send{
+        font-family: var(--font-family);
+        font-size: 24px;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        vertical-align: middle;
+        border: 3px solid var(--clr2);
+        cursor: pointer;
+        width: 200px;
+        margin: auto;
+        color: var(--clr3);
+        background-color: var(--clr2);
+    } 
 }
 
 /* Screen Size 375x667 */
@@ -80,8 +206,52 @@
 
     .div-contact{
         display: flex;
-        flex-direction: row;
-        height: 100%;
-        font-size: 50px;
-    }   
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .div-contact-title{
+        font-size: 30px;
+        font-weight: 900;
+        padding-bottom: 20px;
+    }
+
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .input-name,
+    .input-email,
+    .input-message{
+        border: 2px solid var(--clr2);
+        border-radius: 5px;
+        font-size: 12px;
+        padding: 8px;
+        margin-bottom: 5px;
+        color: var(--clr1);
+        background-color: var(--clr3);
+    }
+
+    .input-message{
+        height: 300px;
+    }
+
+    .button-send{
+        font-family: var(--font-family);
+        font-size: 12px;
+        padding: 8px;
+        border-radius: 5px;
+        text-align: center;
+        vertical-align: middle;
+        border: 3px solid var(--clr2);
+        cursor: pointer;
+        width: 100px;
+        margin: auto;
+        color: var(--clr3);
+        background-color: var(--clr2);
+    } 
 }

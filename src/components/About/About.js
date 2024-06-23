@@ -17,8 +17,8 @@ export default function About() {
                     <p>
                         I am <span className='blue'> Emer</span> and I am a Junior Software Engineer, who is passionate
                         about <span className='blue'> building applications</span>. I possess sufficient skills in both
-                        front-end and back-end development through HTML, CSS, Javascript, 
-                        ReactJS, Ruby, and Ruby on Rails.
+                        front-end and back-end development through <span className='blue'>HTML</span>, <span className='blue'>CSS</span>, <span className='blue'>Javascript</span>, 
+                        <span className='blue'> ReactJS</span>, <span className='blue'>Ruby</span>, and <span className='blue'>Ruby on Rails</span>.
                     </p> 
                     <br></br>
                     <p>

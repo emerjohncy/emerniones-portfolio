@@ -43,7 +43,7 @@
 
     .div-journey-body{
         display: flex;
-        flex: row;
+        flex-direction: row;
     }
 
     .div-journey-body-left{
@@ -117,7 +117,7 @@
 
     .div-journey-body{
         display: flex;
-        flex: row;
+        flex-direction: row;
     }
 
     .div-journey-body-left{
@@ -190,7 +190,7 @@
 
     .div-journey-body{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     /* .div-journey-body-left{
@@ -262,7 +262,7 @@
 
     .div-journey-body{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     /* .div-journey-body-left{
