@@ -6,6 +6,7 @@ import { useState } from 'react'
 import Projects from './components/Projects/Projects';
 import Journey from './components/Journey/Journey';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [isClicked, setIsClicked] = useState(false);
@@ -18,6 +19,7 @@ function App() {
       <Projects />
       <Journey />
       <Contact />
+      <Footer />
     </div>
   );
 }
