@@ -166,7 +166,7 @@
 @media all and (min-width: 768px) and (max-width: 1365px){
     .journey{
         width: 100vw;
-        padding-top: 10vh;
+        padding-top: 12vh;
         color: var(--clr1);
         font-family: var(--font-family);
     }
