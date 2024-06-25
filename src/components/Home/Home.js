@@ -2,6 +2,7 @@ import React from 'react'
 import './home.css'
 import portrait from '../../assets/portrait.png';
 import TextTransition, { presets } from 'react-text-transition';
+import resume from '../../assets/resume-temp.pdf'
 
 
 const ROLES = ['Software Engineer', 'DevOps Engineer', 'Materials Engineer'];
@@ -70,7 +71,7 @@ export default function Home () {
             </div>
           </div>
           <div className='div-buttons'>
-            <a className='button' id='download' href={portrait} download>
+            <a className='button' id='download' href={resume} download>
               Download Resumé
             </a>
             <a className='button' id='view' href='#projects'>
