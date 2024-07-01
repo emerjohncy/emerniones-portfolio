@@ -30,8 +30,7 @@ export default function Projects() {
                         A Ruby on Rails application that allows a user to auction his/her owned shoes; while other users can buy shoes on auction through bidding
                         </div>
                         <div className='projects-footer'>
-                            {/* change visit site */}
-                            <a className='visit-site' href='https://github.com/emerjohncy/final_project'>Visit Site</a>
+                            <a className='visit-site' href='https://shoes-bidding-app.onrender.com/'>Visit Site</a>
                             <a className='source-code' href='https://github.com/emerjohncy/final_project'>Source Code</a>
                         </div>
                     </div>
@@ -46,8 +45,7 @@ export default function Projects() {
                         A Ruby on Rails application that allows users to create tasks and manage them according to their corresponding category
                         </div>
                         <div className='projects-footer'>
-                            {/* change visit site */}
-                            <a className='visit-site' href='https://github.com/emerjohncy/journal_app'>Visit Site</a>
+                            <a className='visit-site' href='https://journalapp.emerniones.com/'>Visit Site</a>
                             <a className='source-code' href='https://github.com/emerjohncy/journal_app'>Source Code</a>
                         </div>
                     </div>
