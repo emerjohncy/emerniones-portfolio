@@ -2,7 +2,7 @@ import React from 'react'
 import './home.css'
 import portrait from '../../assets/portrait.png';
 import TextTransition, { presets } from 'react-text-transition';
-import resume from '../../assets/resume-temp.pdf'
+import resume from '../../assets/resume.pdf'
 
 
 const ROLES = ['Software Engineer', 'DevOps Engineer', 'Materials Engineer'];

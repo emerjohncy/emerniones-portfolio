@@ -30,8 +30,8 @@ export default function Projects() {
                         A Ruby on Rails application that allows a user to auction his/her owned shoes; while other users can buy shoes on auction through bidding
                         </div>
                         <div className='projects-footer'>
-                            <a className='visit-site' href='https://shoes-bidding-app.onrender.com/'>Visit Site</a>
-                            <a className='source-code' href='https://github.com/emerjohncy/final_project'>Source Code</a>
+                            <a className='visit-site' href='https://shoes-bidding-app.onrender.com/' target='blank'>Visit Site</a>
+                            <a className='source-code' href='https://github.com/emerjohncy/final_project' target='blank'>Source Code</a>
                         </div>
                     </div>
                 </div>
@@ -45,8 +45,8 @@ export default function Projects() {
                         A Ruby on Rails application that allows users to create tasks and manage them according to their corresponding category
                         </div>
                         <div className='projects-footer'>
-                            <a className='visit-site' href='https://journalapp.emerniones.com/'>Visit Site</a>
-                            <a className='source-code' href='https://github.com/emerjohncy/journal_app'>Source Code</a>
+                            <a className='visit-site' href='https://journalapp.emerniones.com/' target='blank'>Visit Site</a>
+                            <a className='source-code' href='https://github.com/emerjohncy/journal_app' target='blank'>Source Code</a>
                         </div>
                     </div>
                 </div>
@@ -60,8 +60,8 @@ export default function Projects() {
                         A ReactJS application that allows a user to communicate with other users through a channel or a direct message
                         </div>
                         <div className='projects-footer'>
-                            <a className='visit-site' href='https://emerjohncy-slack-clone.netlify.app/'>Visit Site</a>
-                            <a className='source-code' href='https://github.com/emerjohncy/slack-react'>Source Code</a>
+                            <a className='visit-site' href='https://emerjohncy-slack-clone.netlify.app/' target='blank'>Visit Site</a>
+                            <a className='source-code' href='https://github.com/emerjohncy/slack-react' target='blank'>Source Code</a>
                         </div>
                     </div>
                 </div>
@@ -75,8 +75,8 @@ export default function Projects() {
                             A Javascript application that allows a user, preferably a bank employee, to manage the bank's accounts
                         </div>
                         <div className='projects-footer'>
-                            <a className='visit-site' href='https://emerjohncy.github.io/batch18-frontend-activities/banking-app/'>Visit Site</a>
-                            <a className='source-code' href='https://github.com/emerjohncy/batch18-frontend-activities/tree/main/banking-app'>Source Code</a>
+                            <a className='visit-site' href='https://emerjohncy.github.io/batch18-frontend-activities/banking-app/' target='blank'>Visit Site</a>
+                            <a className='source-code' href='https://github.com/emerjohncy/batch18-frontend-activities/tree/main/banking-app' target='blank'>Source Code</a>
                         </div>
                     </div>
                 </div>
@@ -91,8 +91,8 @@ export default function Projects() {
                             A tic-tac-toe application, made with HTML, CSS and Javascript, that allows users to play tic-tac-toe
                         </div>
                         <div className='projects-footer'>
-                            <a className='visit-site' href='https://emerjohncy.github.io/batch18-frontend-activities/tic-tac-toe/'>Visit Site</a>
-                            <a className='source-code' href='https://github.com/emerjohncy/batch18-frontend-activities/tree/main/tic-tac-toe'>Source Code</a>
+                            <a className='visit-site' href='https://emerjohncy.github.io/batch18-frontend-activities/tic-tac-toe/' target='blank'>Visit Site</a>
+                            <a className='source-code' href='https://github.com/emerjohncy/batch18-frontend-activities/tree/main/tic-tac-toe' target='blank'>Source Code</a>
                         </div>
                     </div>
                 </div>
