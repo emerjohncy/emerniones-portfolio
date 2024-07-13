@@ -44,7 +44,7 @@ export default function Experience() {
                   </div>
                 </div>
                 <div className='div-education-item'>
-                  <li className='journey-date'>2014 - 2021</li>
+                  <li className='journey-date'>2014 - 2020</li>
                   <div className='div-education-item-body'>BS in Materials Engineering - University of the Philippines Diliman</div>
                 </div>
               </div>
