@@ -5,7 +5,7 @@ import TextTransition, { presets } from 'react-text-transition';
 import resume from '../../assets/resume.pdf'
 
 
-const ROLES = ['Software Engineer', 'DevOps Engineer', 'QA Tester, Continuous Learner'];
+const ROLES = ['Software Engineer', 'DevOps Engineer', 'QA Tester', 'Continuous Learner'];
 
 export default function Home () {
   const [index, setIndex] = React.useState(0);
